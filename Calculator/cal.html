@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link href="cal.css" rel="stylesheet" type="text/css">
+    <script src="cal.js"></script>
+  </head>
+  <body>
+    <form name="f">
+      <table border=2 align="center">
+        <tr>
+          <th colspan=2><h2>Calculator</h2></th>
+        </tr>
+        <tr>
+          <td>Enter First Number</td>
+          <td><input type="text" name="fn"></td>
+        </tr>
+        <tr>
+          <td>Enter Second Number</td>
+          <td><input type="text" name="sn"></td>
+        </tr>
+        <tr>
+          <td>Result</td>
+          <td><input type="text" name="res"></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="+" onclick="add();">
+            <input type="button" value="-" onclick="sub();">
+          </td>
+          <td>
+            <input type="button" value="*" onclick="mul();">
+            <input type="button" value="/" onclick="div();">
+          </td>
+        </tr>
+        <tr>
+          <td colspan=2>
+            <input type="button" value="%" onclick="mod();">
+            <input type="button" value="Cancel" onclick="cls();">
+          </td>
+        </tr>
+        <tr>
+          <th colspan=2>Akriti@2020</th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

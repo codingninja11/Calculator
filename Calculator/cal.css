@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid blue;
+    background: cyan;
+    margin-top: 150px;
+}
+input{
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+}
+input[type="text"]{
+    height: 30px;
+    width: 220px;
+}
+input[type="button"]{
+    color: blue;
+    font-size: 18px;
+    border: 1px solid blue;
+}
+th{
+    background-color: #dcdcdc;
+}

@@ -22,3 +22,6 @@ function cls()
 {
     document.f.res.value=document.f.fn.value=document.f.sn.value="";
 }
+function clear1(){
+        document.getElementById("display").innerHTML = "";
+       }
